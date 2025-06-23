@@ -1,4 +1,4 @@
-# 📰 NexNews App
+# 📰 NexNews App https://news-stream-e56ejxeh9-mohammed-abdur-rasheeds-projects.vercel.app/
 
 A responsive and dynamic single-page news application built with React.js, Bootstrap, and NewsAPI.org. Stay informed with the latest headlines from around the world.
 
@@ -54,38 +54,7 @@ A responsive and dynamic single-page news application built with React.js, Boots
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 🏗️ Project Structure
 
-```
-nexnews-app/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── assets/
-│   │   └── styles.css
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── NewsCard.jsx
-│   │   ├── NewsList.jsx
-│   │   ├── CategoryNav.jsx
-│   │   ├── SearchBar.jsx
-│   │   └── FeedbackForm.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── CategoryPage.jsx
-│   │   └── NotFound.jsx
-│   ├── hooks/
-│   │   └── useFetchNews.jsx
-│   ├── context/
-│   │   └── ThemeContext.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── api.js
-├── .env
-├── package.json
-└── README.md
-```
 
 ## 🎯 Key Components
 
@@ -157,9 +126,6 @@ Get your free API key from [NewsAPI.org](https://newsapi.org/)
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
