@@ -75,11 +75,7 @@ const Home = () => {
                 </small>
               </div>
             </Col>
-          </Row>        )}
-      </Container>
-
-      {/* Feedback Form */}
-      
+          </Row>        )}      </Container>
     </div>
   );
 };
