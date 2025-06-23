@@ -5,15 +5,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="footer">
-      <Container>
+    <footer className="footer">      <Container>
         <Row>
-          <Col md={4} className="mb-4">            <h5><i className="fas fa-newspaper me-2"></i>NexNews</h5>
+          <Col md={6} className="mb-4">
+            <h5><i className="fas fa-newspaper me-2"></i>NexNews</h5>
             <p>
               Stay informed with the latest news from around the world. 
               NexNews brings you breaking news, technology updates, 
               sports highlights, and more.
-            </p>            <div className="social-icons">
+            </p>
+            <div className="social-icons">
               <a href="#" title="Facebook"><i className="fab fa-facebook-f"></i></a>
               <a href="#" title="Twitter"><i className="fab fa-twitter"></i></a>
               <a href="#" title="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
@@ -21,31 +22,8 @@ const Footer = () => {
             </div>
           </Col>
           
-          <Col md={2} className="mb-4">
-            <h5>Categories</h5>
-            <ul className="footer-links">
-              <li><a href="/category/technology">Technology</a></li>
-              <li><a href="/category/sports">Sports</a></li>
-              <li><a href="/category/business">Business</a></li>
-              <li><a href="/category/health">Health</a></li>
-              <li><a href="/category/entertainment">Entertainment</a></li>
-              <li><a href="/category/science">Science</a></li>
-            </ul>
-          </Col>
-          
-          <Col md={2} className="mb-4">
-            <h5>Quick Links</h5>
-            <ul className="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#privacy">Privacy Policy</a></li>
-              <li><a href="#terms">Terms of Service</a></li>
-              <li><a href="#help">Help</a></li>
-            </ul>
-          </Col>
-          
-          <Col md={4} className="mb-4">            <h5>About NexNews</h5>
+          <Col md={6} className="mb-4">
+            <h5>About NexNews</h5>
             <p>
               NexNews is a modern news aggregation platform that provides 
               real-time news updates from trusted sources worldwide. Built with 
@@ -53,7 +31,8 @@ const Footer = () => {
             </p>
             <p className="mb-0">
               <strong>Features:</strong>
-            </p>            <ul className="footer-links">
+            </p>
+            <ul className="footer-links">
               <li><i className="fas fa-bolt me-2"></i>Real-time news updates</li>
               <li><i className="fas fa-layer-group me-2"></i>Category-based browsing</li>
               <li><i className="fas fa-search me-2"></i>Advanced search functionality</li>

@@ -62,8 +62,7 @@ const CategoryPage = () => {
                 {category?.charAt(0).toUpperCase() + category?.slice(1)}
               </Breadcrumb.Item>
             </Breadcrumb>
-          </Col>
-        </Row>
+          </Col>        </Row>
 
         {/* Category Header */}
         <Row className="mb-5">

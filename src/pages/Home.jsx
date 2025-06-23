@@ -3,7 +3,6 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { useSearchParams, useLocation } from 'react-router-dom';
 import NewsList from '../components/NewsList.jsx';
 import CategoryNav from '../components/CategoryNav.jsx';
-
 import { useFetchNews } from '../hooks/useFetchNews.jsx';
 
 const Home = () => {
@@ -22,9 +21,7 @@ const Home = () => {
 
   return (
     <div style={{ paddingTop: '80px' }}>
-      <CategoryNav />
-      
-      <Container className="my-4">
+      <CategoryNav />      <Container className="my-4">
         {/* Hero Section */}
         <Row className="mb-5">
           <Col>
