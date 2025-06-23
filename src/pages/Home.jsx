@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { useSearchParams, useLocation } from 'react-router-dom';
 import NewsList from '../components/NewsList.jsx';
 import CategoryNav from '../components/CategoryNav.jsx';
-import FeedbackForm from '../components/FeedbackForm.jsx';
+
 import { useFetchNews } from '../hooks/useFetchNews.jsx';
 
 const Home = () => {
@@ -79,7 +79,7 @@ const Home = () => {
       </Container>
 
       {/* Feedback Form */}
-      <FeedbackForm />
+      
     </div>
   );
 };
